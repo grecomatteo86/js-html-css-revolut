@@ -64,16 +64,6 @@ img{
   align-items: center;
   margin: 10px 0;
 }
-.dropdown_menu{
-  position: absolute;
-  display: flex;
-  top: 50px;
-  right: -230px;
-  width: 700px;
-  background-color: #fff;
-  border-radius: 10px;
-  display: none;
-}
 .account_section,
 .wealth_section,
 .payments_section,
@@ -111,8 +101,19 @@ h3{
 }
 .dropdown_menu li,
 .dropdown_menu_two li,
-.dropdown_menu_three li{
+.dropdown_menu_three li,
+.dropdown_menu_four li{
   margin: 15px 0;
+}
+.dropdown_menu{
+  position: absolute;
+  display: flex;
+  top: 50px;
+  right: -230px;
+  width: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: none;
 }
 .dropdown_menu_two{
   position: absolute;
@@ -127,5 +128,13 @@ h3{
   background-color: #fff;
   top: 50px;
   border-radius: 10px;
+  display: none;
+}
+.dropdown_menu_four{
+  position: absolute;
+  top: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 150px;
   display: none;
 }
