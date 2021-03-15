@@ -110,10 +110,19 @@ h3{
   margin: 0;
 }
 .dropdown_menu li,
-.dropdown_menu_two li{
+.dropdown_menu_two li,
+.dropdown_menu_three li{
   margin: 15px 0;
 }
 .dropdown_menu_two{
+  position: absolute;
+  background-color: #fff;
+  top: 50px;
+  border-radius: 10px;
+  display: none;
+}
+.dropdown_menu_three{
+  width: 180px;
   position: absolute;
   background-color: #fff;
   top: 50px;
